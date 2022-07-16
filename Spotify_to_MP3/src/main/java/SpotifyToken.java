@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 
 
 
-            String data = "grant_type=client_credentials&client_id=ab4794f633e34c7c856667bfb4101592&client_secret=bafe3e4bfc7443fe84105423aa52cb21";
+            String data = "grant_type=client_credentials&client_id=insertClientID&client_secret=insertClientSecret";
 
             byte[] out = data.getBytes(StandardCharsets.UTF_8);
 
